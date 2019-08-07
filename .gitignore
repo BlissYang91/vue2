@@ -7,3 +7,4 @@ node_modules/
 *.njsproj
 *.sln
 .npm
+vue2.code-workspace
