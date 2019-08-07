@@ -8,6 +8,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  data:{foo:"全局常量"},
   components: { App },
   template: '<App/>'
 })
