@@ -21,7 +21,7 @@
         <h3>{{slotPros.ct}}</h3>
       </!-->
     <!-- </SlotDemo> --> 
-    <Anim/>
+    <FilterDemo/>
   </div>
 </template>
 
@@ -31,6 +31,7 @@
 // import Dom from './components/dom'
 // import SlotDemo from './components/slotDemo'
 import Anim from './components/anim'
+import FilterDemo from './components/filterDemo'
 
 export default {
   name: 'App',
@@ -44,7 +45,8 @@ export default {
     // Parent,
     // Dom
     // SlotDemo
-    Anim
+    // Anim
+    FilterDemo
   }
 }
 </script>

@@ -12,6 +12,9 @@
          >
             <p class="box" v-if="show">hello</p>
         </transition>
+
+        <input type="text" v-focus >
+        <p v-myStyle>自定义名称指令</p>
    </div>
 </template>
 <script>
@@ -22,6 +25,19 @@ export default {
            show:true
        }
    },
+//    局部指令集合
+    directives:{
+      focus:{
+          inserted:function(el){
+              el.focus()
+          }
+      },
+      myStyle:{
+          inserted:function(el){
+              el.style.fontSize = "40px"
+          }
+      }
+    },
   components: {}
 }
 </script>
