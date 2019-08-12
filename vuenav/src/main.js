@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import MuseUi from 'muse-ui'
+Vue.use(MuseUi)
 
 Vue.config.productionTip = false
 
