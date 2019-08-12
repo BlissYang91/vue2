@@ -7,6 +7,7 @@ import ShopCar from "@/container/ShopCar"
 import NotFound from "@/container/NotFound"
 import Hot from "@/container/Home/SubPage/Hot"
 import Recommend from "@/container/Home/SubPage/Recommend"
+
 Vue.use(Router)
 
 export default new Router({
