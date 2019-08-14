@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+      git commit -m "first commit"
     <router-view/>
   </div>
 </template>

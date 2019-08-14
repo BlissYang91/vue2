@@ -7,7 +7,7 @@
 /gradle.properties
 /local.properties
 .DS_Store
-/build
+/build/
 .idea
 .vscode
 node_modules/
@@ -17,3 +17,4 @@ node_modules/
 vuenav/
 vuerouter/
 vue2.code-workspace
+build/
